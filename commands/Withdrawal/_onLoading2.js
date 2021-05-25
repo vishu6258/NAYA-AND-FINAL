@@ -36,7 +36,7 @@ Api.sendMessage({
     bot.name +
     "\n\n     User - @"+user.username+"\n💳 Amount: " +
     amo +
-    " ATRON \n👜 Wallet : " +
+    " TWEET \n👜 Wallet : " +
     add +
     "\n🕹️ ☘TxID : https://tronscan.org/#/transaction/" +
     tx +
@@ -49,7 +49,7 @@ Bot.sendMessageToChatWithId(
     bot.name +
     "\n\n💳 Amount: " +
     amo +
-    " WHXC \n👜 Wallet : " +
+    " TWEET \n👜 Wallet : " +
     add +
     "\n🕹️ ☘TxID : https://tronscan.org/#/transaction/" +
     tx +
