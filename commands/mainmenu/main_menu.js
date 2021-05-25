@@ -16,8 +16,8 @@ if (referbonus == undefined){
 let refUser = Libs.ReferralLib.currentUser.attractedByUser()
 if (refUser){
   var balanceref = Libs.ResourcesLib.anotherUserRes("balance", refUser.telegramid)
-  balanceref.add(1000)
-  Bot.sendMessageToChatWithId(refUser.chatId, "💲 You Earned +1000 WHXC \n\n*👨‍💼Your Referral :* "+"["+user.username+"]" + "(" + "tg://user?id=" + user.telegramid + ")")
+  balanceref.add(30000)
+  Bot.sendMessageToChatWithId(refUser.chatId, "💲 You Earned +30000 ATRON/TWEET \n\n*👨‍💼Your Referral :* "+"["+user.username+"]" + "(" + "tg://user?id=" + user.telegramid + ")")
 User.setProperty("referbonus", user.telegramid, "integer")}
 }
 
