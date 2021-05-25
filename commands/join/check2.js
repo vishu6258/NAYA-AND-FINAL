@@ -12,7 +12,7 @@ CMD*/
 var user = options.result.status;
 User.setProperty("status" , user, "string");
 if (user=="member" | user =="administrator" | user=="creator"){
-Bot.runCommand("main_menu")
+Bot.runCommand("join3")
 User.addToGroup("user")
 }
 
