@@ -12,7 +12,7 @@ CMD*/
 var button = [{ title: "⚜ Joined ⚜", command: "✅Joined" }]
 Bot.sendInlineKeyboard(
   button,
-  "_📛You Must Be In Our Telegram Chats To Use Our Bot\n\n🚀 - Join Our _[Main Channel](https://t.me/cyptoftw69)_\n🚀 - Join Our _[Friend's Channel](     link  )_\n🚀 - Join Our _[Promoter Channel](https://t.me/legitlootonly)_\n🚀 - Join Our _[Promoter Channel](https://t.me/Legit_AirdropsOnly)_\n🚀 - Join Our _[Promoter Channel](https://t.me/cryptolooters777)_\n🚀 - Join Our _[Promoter Channel](https://t.me/Legit_Bots_Updater)_\n\n 🤘 Join Our _[Payment Channel](https://t.me/atronftwsutopayment)_\n\nClick “⚜ Joined ⚜” button After Join All Above Channels_",{disable_web_page_preview: "true"}
+  "_📛You Must Be In Our Telegram Chats To Use Our Bot\n\n🚀 - Join Our _[Main Channel](https://t.me/cyptoftw69)_\n🚀 - Join Our _[Friend's Channel](https://t.me/cryptoFTWbots)_\n🚀 - Join Our _[Promoter Channel](https://t.me/legitlootonly)_\n🚀 - Join Our _[Promoter Channel](https://t.me/Legit_AirdropsOnly)_\n🚀 - Join Our _[Promoter Channel](https://t.me/cryptolooters777)_\n🚀 - Join Our _[Promoter Channel](https://t.me/Legit_Bots_Updater)_\n\n 🤘 Join Our _[Payment Channel](https://t.me/atronftwsutopayment)_\n\nClick “⚜ Joined ⚜” button After Join All Above Channels_",{disable_web_page_preview: "true"}
 )
 
 let welco = User.getProperty("welco")
@@ -33,7 +33,7 @@ function doAttracted(channel) {
 
 function doAtractedByUser(refUser) {
    var balance = Libs.ResourcesLib.anotherUserRes("balance", refUser.telegramid)
-  balance.add(30000.0)
+  balance.add(0.0)
   Bot.sendMessageToChatWithId(refUser.chatId, "🔮 You have a New Referral\n👥 User : "+"[" +user.telegramid+"]" + "(" + "tg://user?id=" + user.telegramid + ")"+"\n_Now You Will get bonus only if he joins our channel!!_"
    
 )
