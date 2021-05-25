@@ -23,7 +23,7 @@ if (!isNumeric(value)) {
 var userPayment = Libs.ResourcesLib.anotherChatRes("totalPayment", "global")
 userPayment.add(+message)
 if (message < 150000) {
-  Bot.sendMessage("_❌ Minimum Withdraw 150,000 ATRON_")
+  Bot.sendMessage("_❌ Minimum Withdraw 150,000 TWEET_")
 } else {
   if (message > balance.value()) {
     Bot.sendMessage(
