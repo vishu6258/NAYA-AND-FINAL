@@ -49,7 +49,7 @@ Bot.sendMessageToChatWithId(
     bot.name +
     "\n\n💳 Amount: " +
     amo +
-    " TWEET \n👜 Wallet : " +
+    " ATRON \n👜 Wallet : " +
     add +
     "\n🕹 ☘️TxID : https://tronscan.org/#/transaction/" +
     tx +
